@@ -1,0 +1,38 @@
+.flex-container{
+    display:flex;
+    border:1px solid black;
+    max-width:500px
+}
+.default{
+    flex-flow: row nowrap;
+}
+.row-reverse{
+    flex-flow: row-reverse nowrap;
+}
+.row-reverse-wrap{
+    flex-flow: row-reverse wrap;
+}
+.row-wrap-reverse{
+    flex-flow: row-reverse wrap-reverse;
+}
+.wrap{
+    flex-flow:row wrap;
+}
+.wrap-reverse{
+    flex-flow:row wrap-reverse;
+}
+.column{
+    flex-flow:column nowrap;
+}
+.comlumn-wrap{
+    flex-flow: column wrap;
+}
+.item{
+    background-color: blueviolet;
+    margin:5px;
+    color:white;
+    text-align: center;
+    width:100px;
+    height:50px;
+    line-height: 50px;
+}
